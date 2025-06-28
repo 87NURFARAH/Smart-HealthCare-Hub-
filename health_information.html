@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Information - Smart HealthCare Information Hub</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #e1bee7, #d1c4e9); /* Soft purple gradient */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4a148c;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #8e24aa; /* Purple navigation background */
+            border-radius: 8px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px; /* Reduced space between buttons */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9em; /* Smaller font size */
+            padding: 8px 16px; /* Smaller padding */
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #ffeb3b; /* Yellow hover effect */
+        }
+
+        h2 {
+            color: #6a1b9a;
+            margin-top: 30px;
+            border-bottom: 2px solid #8e24aa;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .health-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f3e5f5;
+            border-radius: 10px;
+        }
+
+        .health-section h3 {
+            color: #6a1b9a;
+            margin-bottom: 15px;
+        }
+
+        .health-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .health-link {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .health-link a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #8e24aa;
+            color: white;
+            font-size: 1.1em;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .health-link a:hover {
+            background-color: #6a1b9a;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .health-link {
+                width: 100%;
+            }
+        }
+
+        /* Back Button */
+        .back-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .back-link a {
+            padding: 10px 20px;
+            background-color: #8e24aa;
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .back-link a:hover {
+            background-color: #6a1b9a;
+        }
+
+        /* Specific style for Events button */
+        .events-link {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .events-link a {
+            padding: 12px 24px;
+            background-color: #ff5722; /* Different color for Events button */
+            color: white;
+            font-size: 1.1em;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .events-link a:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Health Information</h1>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="health_information.html">Health Information</a></li>
+                <li><a href="appointment_booking.html">Appointment Booking</a></li>
+                <li><a href="ai_chatbot.html">AI Chatbot</a></li>
+            </ul>
+        </nav>
+
+        <!-- Health Information Section -->
+        <div class="health-section">
+            <h3>Explore Reliable Health Resources</h3>
+            <p>Here are some key health information links that can guide you in understanding your health and wellness better. Browse through trusted resources for up-to-date health articles, advice, and more.</p>
+
+            <div class="health-links">
+                <!-- Link 1: Health Guidelines -->
+                <div class="health-link">
+                    <h4>Health Guidelines</h4>
+                    <p>Find official health guidelines to stay informed about best practices for a healthy lifestyle.</p>
+                    <a href="https://www.who.int/health-topics" target="_blank">Visit World Health Organization</a>
+                </div>
+
+                <!-- Link 2: Disease Prevention -->
+                <div class="health-link">
+                    <h4>Disease Prevention</h4>
+                    <p>Learn about preventative measures for various diseases and how to protect yourself and others.</p>
+                    <a href="https://www.cdc.gov/healthy-living/index.html" target="_blank">Visit CDC - Healthy Living</a>
+                </div>
+
+                <!-- Link 3: Mental Health Resources -->
+                <div class="health-link">
+                    <h4>Mental Health Support</h4>
+                    <p>Access resources for managing mental health, including therapy options and self-help techniques.</p>
+                    <a href="https://www.mentalhealth.gov/" target="_blank">Visit MentalHealth.gov</a>
+                </div>
+
+                <!-- Link 4: Healthy Eating -->
+                <div class="health-link">
+                    <h4>Healthy Eating</h4>
+                    <p>Explore healthy eating guides to help maintain a balanced diet and improve your overall health.</p>
+                    <a href="https://www.nutrition.gov/" target="_blank">Visit Nutrition.gov</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Separate Event Link -->
+        <div class="events-link">
+            <a href="events.html" class="events-button">View Upcoming Events</a>
+        </div>
+
+        <!-- Button Back to Homepage -->
+        <div class="back-link">
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </div>
+
+        <footer>
+            © 2025 Smart HealthCare Information Hub. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
